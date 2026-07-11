@@ -17,10 +17,13 @@
         <nav>
             <ul>
                 <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
                     <a href="#aboutme">About Me</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </li>
                 <li class="dropdown">
                     <a href="#">Resume ▾</a>
@@ -33,9 +36,6 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
             </ul>
         </nav>
     </header>
@@ -43,7 +43,7 @@
         <section id="blurb">
             <div class="blurbcard">
                 <img src="" alt="Profile Pic of Ethan Armstrong">
-                <h2>Hi there! I'm Ethan.</h2>
+                <h2 class="blurb-heading">Hi there! I'm Ethan.</h2>
                 <p>
                     I'm a current game designer with a strong passion for design, game creation
                     and enjoy all things video games. My work is inspired and driven by culture,
@@ -52,10 +52,13 @@
             </div>
         </section>
         <section id="projects">
-            
+            <div class="projectscard">
+
+            </div>
         </section>
         <section id="aboutme">
             <div class="aboutmecard">
+                <h3 class="about-me-heading">About Ethan Armstrong</h3>
                 <img src="" alt="Another Picture of Ethan Armstrong, slightly better">
                 <p>
                     After deliberating about my future for a long time, I finally 
@@ -83,11 +86,34 @@
             </div>
         </section>
         <section id="contact">
-            
+            <div class="contactcard">
+                <h3 class="contact-heading">Contact Me!</h3>
+                <form>
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Write Your Message Here:</label>
+                        <input type="text" id="message" name="message" required>
+                    </div>
+                    <button type="submit" id="daButton">Send</button>
+                </form>
+                <p>Feel free to reach out! All inquiries are welcome. Below are some of my social media links:</p>
+                <div id="socials">
+                    <svg></svg> <!--Instagram-->
+                    <svg></svg> <!--LinkedIn-->
+                    <svg></svg> <!--Itch.io-->
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        
+        <p>© 2026 Ethan Armstrong. All rights reserved.</p>
     </footer>
 </body>
 </html>
