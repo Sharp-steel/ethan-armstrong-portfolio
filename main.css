@@ -1,29 +1,38 @@
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
+/** Basic Styles **/
 
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    background: #222;
-    min-width: 180px;
-    border-radius: 8px;
-    overflow: hidden;
-    z-index: 1000;
+body {
+    margin: 0 auto;
 }
 
-.dropdown-menu li a {
-    padding: 12px 16px;
-    white-space: nowrap;
+li {
+    list-style-type: none;
 }
 
-.dropdown-menu li a:hover {
-    background: #444;
+a {
+    text-decoration: none;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
+/** Header Section **/
+
+header {
+    background: #944444;
 }
+
+/** Footer Section **/
+
+footer {
+    background: #2D3A4D;
+    padding: 15px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+/** 
+Hex Values: 
+Dull Gold: #D9BF77 - Text?
+Forest Green: #3e4938 - Section Cards
+White/Grey Main Background
+**/
