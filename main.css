@@ -18,6 +18,12 @@ header {
     background: #944444;
 }
 
+/** About Me Section **/
+
+#aboutme {
+    background: lightgray;
+}
+
 /** Footer Section **/
 
 footer {
@@ -33,6 +39,6 @@ footer p {
 /** 
 Hex Values: 
 Dull Gold: #D9BF77 - Text?
-Forest Green: #3e4938 - Section Cards
+Forest Green: #3e4938 - Section Cards for Projects
 White/Grey Main Background
 **/
