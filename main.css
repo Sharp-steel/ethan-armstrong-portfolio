@@ -2,6 +2,8 @@
 
 body {
     margin: 0 auto;
+    background: #eeeeee;
+    color: #D9BF77;
 }
 
 li {
@@ -12,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-h2 {
+h2, h3 {
     text-align: center;
 }
 
@@ -24,22 +26,54 @@ header {
     width: 100%;
 }
 
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    padding: 2px 10px 5px 10px;
+    margin-top: 1px;
+}
+
+.dropdown-menu {
+    display: block;
+}
+
 /** Projects Section **/
 
 .projectscard {
     background: #3e4938;
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
 }
 
 /** About Me Section **/
 
 #aboutme {
-    background: lightgray;
+    background: rgb(217, 217, 217);
+}
+
+.aboutmecard {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 /** Contact Section **/
 
+label {
+    color: #000000;
+}
+
+.contactcard p {
+    text-align: center;
+}
+
 #socials {
     display: flex;
+    justify-content: space-between;
 }
 
 /** Footer Section **/
@@ -53,5 +87,3 @@ footer p {
     color: white;
     text-align: center;
 }
-
-/* Dull Gold: #D9BF77 - Text? */
