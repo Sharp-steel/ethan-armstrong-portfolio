@@ -1,9 +1,22 @@
 /** Basic Styles **/
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+}
+
 body {
     margin: 0 auto;
     background: #eeeeee;
     color: #D9BF77;
+}
+
+main {
+    margin-top: 100px;
 }
 
 li {
@@ -12,6 +25,7 @@ li {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 h2, h3 {
@@ -24,6 +38,7 @@ header {
     background: #944444;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 nav ul {
@@ -37,16 +52,24 @@ nav ul li {
 }
 
 .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
     display: block;
 }
 
 /** Projects Section **/
 
-.projectscard {
+.projectscard1, .projectscard2, .projectscard3 {
     background: #3e4938;
     width: 50%;
     height: 400px;
     margin: 0 auto;
+}
+
+.projectscard3 {
+    margin-bottom: 20px;
 }
 
 /** About Me Section **/
