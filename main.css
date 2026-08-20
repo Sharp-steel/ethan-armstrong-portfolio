@@ -102,17 +102,50 @@ nav ul li a:hover {
     display: block;
 }
 
+/** Hero Section **/
+
+
+
 /** Projects Section **/
 
-.projectscard1, .projectscard2, .projectscard3 {
+.projectscard1 {
     background: #3e4938;
-    width: 50%;
-    height: 400px;
+    width: 60%;
+    height: 425px;
     margin: 0 auto;
 }
 
-.projectscard3 {
+.projectscard2 {
+    background: #3e4938;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
     margin-bottom: 20px;
+}
+
+/* .projectscard3 {
+    margin-bottom: 20px;
+} */
+
+.projectscard1 h3 {
+    padding-top: 15px;
+}
+
+.projectscard2 h3 {
+    padding-top: 15px;
+}
+
+/* .projectscard3 h3 {
+    padding-top: 15px;
+} */
+
+#projects img {
+    margin-left: 20px;
+}
+
+.projectscard1 img {
+    display: block;
+    margin: 10px 0 10px 0;
 }
 
 /** About Me Section **/
