@@ -15,16 +15,11 @@
                     <img src="images/PortfolioLogo.png" alt="Ethan Armstrong Logo">
                 </a>
             </div>
-            <ul>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#aboutme">About Me</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+            <ul class="mobile-menu">
+                <li onclick="hideMobileMenu()"><a href="#" class="x-button"><img src="images/close.svg" alt="X Icon"></a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li class="dropdown">
                     <a class="resume-hover">Resume ▾</a>
                     <div class="dropdown-menu">
@@ -32,6 +27,19 @@
                         <a href="images/EthanCV2026-FR.pdf" download>Français</a>
                     </div>
                 </li>
+            </ul>
+            <ul>
+                <li class="hide"><a href="#projects">Projects</a></li>
+                <li class="hide"><a href="#aboutme">About Me</a></li>
+                <li class="hide"><a href="#contact">Contact</a></li>
+                <li class="hide" class="dropdown">
+                    <a class="resume-hover">Resume ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="images/EthanCV2026-EN.pdf" download>English</a>
+                        <a href="images/EthanCV2026-FR.pdf" download>Français</a>
+                    </div>
+                </li>
+                <li class="menu-button" onclick="showMobileMenu()"><a href="#"><img src="images/menu.svg" alt="Menu Icon"></a></li>
             </ul>
         </nav>
     </header>
