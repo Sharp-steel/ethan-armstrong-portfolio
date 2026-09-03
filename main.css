@@ -98,9 +98,25 @@ nav ul li a:hover {
     display: block;
 }
 
+.resume-hover {
+    cursor: pointer;
+}
+
 /** Hero Section **/
 
+/* .hero-img {
+    background-image: ;
+} */
 
+.herocontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 0 auto;
+    align-items: center;
+    width: 50%;
+    padding: 5px;
+}
 
 /** Projects Section **/
 
