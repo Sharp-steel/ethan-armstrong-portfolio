@@ -313,6 +313,10 @@ footer p {
 
 @media (max-width: 768px) {
 
+    .herocontent {
+        display: block;
+    }
+
     .projectscard1,
     .projectscard2 {
         max-width: 90%;
@@ -347,6 +351,10 @@ footer p {
 
     .notrespassinggif {
         margin: 0 auto;
+    }
+
+    .aboutmecard {
+        display: block;
     }
 
     #socials {
