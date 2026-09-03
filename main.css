@@ -314,7 +314,24 @@ footer p {
 @media (max-width: 768px) {
 
     .herocontent {
-        display: block;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .herotext {
+        display: contents;
+    }
+
+    .hero-heading {
+        order: 1;
+    }
+
+    .herocontent img {
+        order: 2;
+    }
+
+    .herotext p {
+        order: 3;
     }
 
     .projectscard1,
