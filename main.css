@@ -184,7 +184,9 @@ nav ul li a:hover {
 }
 
 .projectscard1 {
-    background: rgb(62, 73, 56, 0.9);
+    background: rgb(62, 73, 56);
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
     max-width: 60%;
     min-height: 400px;
     margin: 0 auto;
@@ -234,7 +236,9 @@ nav ul li a:hover {
 }
 
 .projectscard2 {
-    background: rgb(62, 73, 56, 0.9);
+    background: rgb(62, 73, 56);
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
     max-width: 60%;
     min-height: 400px;
     margin: 40px auto 0;
