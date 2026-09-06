@@ -385,10 +385,10 @@ footer p {
 
 @keyframes moveAcross {
     from {
-        background-position: 41px 0;
+        background-position: 41px 0, 0 41px, 41px 0;
     } 
     to {
-        background-position: 0 41px;
+        background-position: 0 41px, 41px 0, 0 41px;
     } 
 }
 
