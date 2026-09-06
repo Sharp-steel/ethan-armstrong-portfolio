@@ -277,13 +277,14 @@ nav ul li a:hover {
 /** About Me Section **/
 
 #aboutme {
-    background: #f6f8f8;
+    background: #944444;
+    background-image: url("images/paper.png");
 }
 
 .aboutmecard {
     width: 50%;
     margin: 0 auto;
-    padding: 5px;
+    padding: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -291,7 +292,7 @@ nav ul li a:hover {
 }
 
 .aboutmeheading {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 /** Contact Section **/
