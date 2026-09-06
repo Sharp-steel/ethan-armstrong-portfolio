@@ -13,7 +13,11 @@ body {
 }
 
 main {
-    margin-top: 100px;
+    padding-top: 78px;
+}
+
+section {
+    margin: 0;
 }
 
 li {
@@ -27,6 +31,10 @@ a {
 
 h2, h3, h4 {
     text-align: center;
+}
+
+h2 {
+    margin-top: 0;
 }
 
 span {
@@ -138,12 +146,21 @@ nav ul li a:hover {
 
 /** Hero Section **/
 
-/* .hero-img {
-    background-image: ;
+.hero-img {
+    background-image: linear-gradient(rgba(45, 58, 77, 0.7), rgba(45, 58, 77, 0.7)), url(images/heroimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-} */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.herocard {
+    max-width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
 
 .herocontent {
     display: grid;
@@ -151,28 +168,19 @@ nav ul li a:hover {
     gap: 40px;
     margin: 0 auto;
     align-items: center;
-    width: 50%;
+    width: 75%;
     padding: 5px;
 }
 
 /** Projects Section **/
 
-.game-button {
-    text-align: center;
+#projects {
+    background-color: #2D3A4D;
+    padding-bottom: 40px;
 }
 
-.gamelink {
-    background-color: #944444;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    padding: 10px 22px;
-    cursor: pointer;
-    transition: 0.4s ease;
-}
-
-.gamelink:hover {
-    background-color: #D9BF77;
+#projects h2 {
+    padding-top: 20px;
 }
 
 .projectscard1 {
@@ -229,7 +237,7 @@ nav ul li a:hover {
     background: rgb(62, 73, 56, 0.9);
     max-width: 60%;
     min-height: 400px;
-    margin: 40px auto;
+    margin: 40px auto 0;
 }
 
 .proj2content {
@@ -241,6 +249,24 @@ nav ul li a:hover {
     margin: 50px 0 0 50px;
     max-width: 100%;
     height: auto;
+}
+
+.game-button {
+    text-align: center;
+}
+
+.gamelink {
+    background-color: #944444;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.gamelink:hover {
+    background-color: #D9BF77;
 }
 
 /** About Me Section **/
@@ -263,7 +289,15 @@ nav ul li a:hover {
     padding-top: 15px;
 }
 
+#aboutme p {
+    color: #2D3A4D;
+}
+
 /** Contact Section **/
+
+.contact-heading {
+    padding-top: 20px;
+}
 
 .contactcard {
     padding: 45px;
@@ -356,6 +390,12 @@ footer p {
 
     .hide {
         display: none;
+    }
+
+    .herocard {
+        max-width: 90%;
+        height: auto;
+        min-height: 400px;
     }
 
     .herocontent {
