@@ -2,7 +2,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 80px;
+    scroll-padding-top: 78px;
 }
 
 body {
@@ -175,8 +175,9 @@ nav ul li a:hover {
 /** Projects Section **/
 
 #projects {
-    background-color: #2D3A4D;
+    background-image: radial-gradient(circle 90px at center center, rgba(6,6,12, 0.15) 0%, rgba(6,6,12, 0.15) 23%,transparent 23%, transparent 66%,transparent 66%, transparent 100%),linear-gradient(270deg, rgba(6,6,12, 0.15) 0%, rgba(6,6,12, 0.15) 8%,transparent 8%, transparent 100%),linear-gradient(0deg, rgba(6,6,12, 0.15) 0%, rgba(6,6,12, 0.15) 10%,transparent 10%, transparent 100%),linear-gradient(180deg, rgba(6,6,12, 0.15) 0%, rgba(6,6,12, 0.15) 10%,transparent 10%, transparent 100%),linear-gradient(90deg, rgba(6,6,12, 0.15) 0%, rgba(6,6,12, 0.15) 8%,transparent 8%, transparent 100%),linear-gradient(90deg, rgb(45,58,77),rgb(45,58,77)); background-size: 41px 41px;
     padding-bottom: 40px;
+    animation: moveAcross 5s linear infinite;
 }
 
 #projects h2 {
@@ -276,7 +277,7 @@ nav ul li a:hover {
 /** About Me Section **/
 
 #aboutme {
-    background: #d9d9d9;
+    background: #f6f8f8;
 }
 
 .aboutmecard {
@@ -291,10 +292,6 @@ nav ul li a:hover {
 
 .aboutmeheading {
     padding-top: 15px;
-}
-
-#aboutme p {
-    color: #2D3A4D;
 }
 
 /** Contact Section **/
@@ -382,6 +379,17 @@ footer {
 footer p {
     color: white;
     text-align: center;
+}
+
+/** Animations **/
+
+@keyframes moveAcross {
+    from {
+        background-position: 41px 0;
+    } 
+    to {
+        background-position: 0 41px;
+    } 
 }
 
 /** --------------- MOBILE STYLES ------------------ **/
