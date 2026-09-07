@@ -506,6 +506,7 @@ footer p {
 
     .aboutmecard {
         display: block;
+        width: 80%;
     }
 
     #socials {
