@@ -10,6 +10,7 @@ body {
     background: #eeeeee;
     color: #D9BF77;
     min-height: 100vh;
+    font-family: "Modern Antiqua", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 main {
@@ -29,7 +30,15 @@ a {
     color: #D9BF77;
 }
 
-h2, h3, h4 {
+h1 {
+    font-size: 1.8rem;
+}
+
+h1, h2, h3 {
+    font-family: "Cinzel Decorative", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2, h3 {
     text-align: center;
 }
 
@@ -76,6 +85,7 @@ nav ul li a {
     border-radius: 3px;
     padding: 10px 15px;
     transition: 0.4s ease;
+    font-family: 'MedievalSharp', Georgia, Garamond, 'Times New Roman', Times, serif;
 }
 
 nav ul li a:hover {
@@ -154,6 +164,7 @@ nav ul li a:hover {
     height: 80vh;
     display: flex;
     align-items: center;
+    border-bottom: 2px solid black;
 }
 
 .herocard {
@@ -214,7 +225,11 @@ nav ul li a:hover {
 }
 
 .proj1text {
-    margin-bottom: 10px; 
+    margin-top: -15px; 
+}
+
+.proj2text {
+    margin-top: 15px;
 }
 
 .proj1images img {
@@ -228,12 +243,16 @@ nav ul li a:hover {
     box-sizing: border-box;
 }
 
+.projtextsize {
+    font-size: 14px;
+}
+
 .proj1text ul {
     margin-bottom: 30px;
 }
 
 .proj2text ul {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .projectscard2 {
@@ -335,6 +354,7 @@ input[type=submit] {
     padding: 10px 22px;
     cursor: pointer;
     transition: 0.4s ease;
+    font-family: "Modern Antiqua", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 input[type=submit]:hover {
@@ -354,6 +374,12 @@ label {
     justify-content: center;
     margin-bottom: 40px;
     margin-top: 20px;
+}
+
+.socialtext {
+    font-family: "Modern Antiqua", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 .social-link {
@@ -451,6 +477,10 @@ footer p {
         display: contents;
     }
 
+    .proj1images {
+        padding-top: 0;
+    }
+
     .proj1text h3, .proj2text h3 {
         order: 1;
         margin-top: 0;
@@ -460,12 +490,13 @@ footer p {
         order: 2;
     }
 
-    .proj1text p, .proj1text ul, .proj1text span, .proj2text p, .proj2text ul, .proj2text span, .game-button{
+    .projtextsize {
         order: 3;
     }
 
     .notrespassinggif {
         margin: 0 auto;
+        padding-bottom: 15px;
     }
 
     .aboutmecard {
