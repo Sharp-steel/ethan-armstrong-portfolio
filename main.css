@@ -488,6 +488,7 @@ footer p {
     .proj1text h3, .proj2text h3 {
         order: 1;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     .proj1images, .notrespassinggif {
