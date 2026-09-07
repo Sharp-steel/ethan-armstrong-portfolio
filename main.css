@@ -268,7 +268,6 @@ nav ul li a:hover {
 }
 
 .notrespassinggif {
-    margin-top: 50px;
     justify-self: center;
 }
 
@@ -503,7 +502,7 @@ footer p {
 
     .notrespassinggif {
         margin: 0 auto;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
 
     .aboutmecard {
@@ -512,7 +511,8 @@ footer p {
     }
 
     .aboutmecard img {
-        margin: 0 auto;
+        margin: 20px auto;
+        display: block;
     }
 
     #socials {
