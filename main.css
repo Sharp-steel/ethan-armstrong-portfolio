@@ -201,25 +201,49 @@ nav ul li a:hover {
     padding-top: 20px;
 }
 
-.projectscard1 {
+.projtextsize {
+    font-size: 14px;
+}
+
+.projectscard1, .projectscard2 {
     background: rgb(62, 73, 56);
     border: 2px solid black;
     box-shadow: 0 0 10px black;
-    max-width: 60%;
+    width: 60%;
+    max-width: 1110px;
     min-height: 400px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .proj1content, .proj2content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     align-items: center;
+    gap: 15px;
     padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
-.proj1content {
-    position: relative;
-    left: -40px;
+.proj1content *, .proj2content * {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.proj1images img, .notrespassinggif {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.proj1text, .proj2text {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 .proj1images {
@@ -227,62 +251,30 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 11px;
-}
-
-.proj1text {
-    margin-top: -15px; 
-}
-
-.proj2text {
-    margin-top: 15px;
+    padding-top: 10px;
+    min-width: 0;
 }
 
 .proj1images img {
-    height: auto;
     margin: 10px 0;
-    max-width: 100%;
 }
 
-.proj1text, .proj2text {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.projtextsize {
-    font-size: 14px;
-}
-
-.proj1text ul {
-    margin-bottom: 30px;
-}
-
-.proj2text ul {
+.proj1text ul, .proj2text ul {
     margin-bottom: 30px;
 }
 
 .projectscard2 {
-    background: rgb(62, 73, 56);
-    border: 2px solid black;
-    box-shadow: 0 0 10px black;
-    max-width: 60%;
-    min-height: 400px;
-    margin: 40px auto 0;
-}
-
-.proj2content {
-    position: relative;
-    left: 20px;
+    margin-top: 40px;
 }
 
 .notrespassinggif {
-    margin: 50px 0 0 50px;
-    max-width: 100%;
-    height: auto;
+    margin-top: 50px;
+    justify-self: center;
 }
 
 .game-button {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .gamelink {
