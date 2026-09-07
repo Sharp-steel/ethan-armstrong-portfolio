@@ -301,7 +301,7 @@ nav ul li a:hover {
 .aboutmecard {
     width: 55%;
     margin: 0 auto;
-    padding: 35px;
+    padding: 0 35px 35px 35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
